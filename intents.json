@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Looking forward to our next chat."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "How many years old are you?"],
+      "responses": ["I'm a computer program, so I don't have an age.", "I exist outside of time, so age doesn't apply to me."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "What do you call yourself?"],
+      "responses": ["I'm your friendly chatbot.", "I am a chatbot created to assist you.", "You can call me Chatbot."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather?", "Is it going to rain today?"],
+      "responses": ["Let me check the weather for you.", "Checking the weather..."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "I want to hear a joke", "Make me laugh"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "Why don’t skeletons fight each other? They don’t have the guts.", "Your love life..."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's the latest news?", "Tell me the news", "What's happening in the world?"],
+      "responses": ["I can't provide real-time news updates, but you can check a news website or app for the latest updates."]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": ["Recommend a restaurant", "Where should I eat?", "Any good restaurants nearby?"],
+      "responses": ["I'm not able to recommend specific restaurants, but you can check online review sites or apps for great options nearby."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+      "responses": ["I'm not able to tell the time right now, but you can check the time on your device or a clock."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "What's today's date?", "Can you tell me the date?"],
+      "responses": ["I'm not able to tell the date right now, but you can check the date on your device or a calendar."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Recommend a song", "What music should I listen to?", "Any music suggestions?"],
+      "responses": ["I can't recommend specific songs, but you can check out popular music charts or playlists on music streaming services."]
+    },
+    {
+      "tag": "book",
+      "patterns": ["Recommend a book", "What book should I read?", "Any book suggestions?"],
+      "responses": ["I can't recommend specific books, but you can check out best-seller lists or book review sites for great suggestions."]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["Recommend a movie", "What movie should I watch?", "Any movie suggestions?"],
+      "responses": ["I can't recommend specific movies, but you can check out popular movie charts or streaming services for great options."]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you do for fun?"],
+      "responses": ["I enjoy chatting with people and helping them with their queries!", "As a chatbot, my main hobby is assisting you with whatever you need."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Do you like sports?", "What's your favorite sport?", "Do you play any sports?"],
+      "responses": ["I don't play sports, but I can help you find information about them!", "I'm a big fan of helping out with any sports-related questions you might have."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "Where do you live?", "Where are you from?"],
+      "responses": ["I'm a virtual assistant, so I don't have a physical location.", "I exist in the digital world, ready to assist you from anywhere."]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["Tell me a quote", "Give me some inspiration", "I need a quote", "Do you know any quotes?"],
+      "responses": ["The best time to plant a tree was 20 years ago. The second best time is now.", "Your time is limited, so don’t waste it living someone else’s life.", "Not everything that is faced can be changed, but nothing can be changed until it is faced."]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["Define {word}", "What does {word} mean?", "Tell me the definition of {word}", "What's the meaning of {word}?"],
+      "responses": ["Let me look up the definition of {word} for you.", "Here is the definition of {word}:"]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["Can you help me with programming?", "I need help with my code", "How do I fix this bug?", "Do you know any programming tips?"],
+      "responses": ["Sure, what programming language are you using?", "I can help with that, what's your code doing?"]
+    },
+    {
+      "tag": "bad words",
+      "patterns": ["Stupid", "Idiot", "Moron", "Dumb"],
+      "responses": ["Please be respectful.", "Let's keep the conversation civil.", "Using such language isn't productive.", "I'd appreciate a more respectful tone."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's your favorite food?", "Do you like pizza?", "What's the best cuisine?"],
+      "responses": ["I don't eat, but I've heard pizza is very popular!", "I can recommend recipes if you're interested."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Can you assist me?", "I need help"],
+      "responses": ["Of course! What do you need help with?", "Sure, I'm here to assist you. How can I help?"]
+    },
+    {
+      "tag": "holiday",
+      "patterns": ["When is Christmas?", "What holidays are coming up?", "Tell me about holidays"],
+      "responses": ["Christmas is on December 25th.", "Check your calendar for upcoming holidays!", "There are many holidays throughout the year. Which one are you interested in?"]
+    },
+
+    {
+      "tag": "travel",
+      "patterns": ["Recommend a travel destination", "Where should I go on vacation?", "Any travel tips?"],
+      "responses": ["I can suggest looking into popular travel destinations online.", "There are many beautiful places to visit. What are you interested in?"]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Tell me about the latest technology", "What's new in tech?", "Any tech news?"],
+      "responses": ["Technology is constantly evolving. You can check tech news sites for the latest updates.", "There are always new advancements in technology."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["What's the best way to learn?", "Recommend an online course", "How can I improve my skills?"],
+      "responses": ["There are many online platforms offering courses. What subject are you interested in?", "Continuous learning is important. Try looking at educational websites and resources."]
+    }
+
+  ]
+}
+
+
+
+
+
+
+
+
+
+
